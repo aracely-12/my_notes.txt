@@ -1,0 +1,7 @@
+with open("datos_personales.txt"."w") as archivo:
+    muchas_filas = ["Fernanda Yansapanta /n", "18 años /n","cedula 1805666276 /n"]
+    archivo.writelines(muchas_filas)
+
+whith open(datos_personales.txt","r") as lector:
+     for dato in lector:
+         print(dato)
